@@ -1,0 +1,22 @@
+# === .NET ===
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+.vs/
+*.db
+
+# === Node / React ===
+node_modules/
+dist/
+.env
+.DS_Store
+
+# === General ===
+*.dll
+*.pdb
+*.exe
+*.zip
+*.tgz

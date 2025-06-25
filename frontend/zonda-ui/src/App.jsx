@@ -3,7 +3,7 @@ import { Box, Typography } from "@mui/material";
 import "./App.css";
 import CustomerSidebar from "./components/CustomersSidebar/CustomerSidebar";
 import ProductsDetailsTab from "./components/ProductsInfo/ProductsTab";
-import CustomerTab from "./components/CustomersSidebar/CustomerTab";
+import CustomerTab from "./components/CustomerInfoTab/CustomerTab";
 
 function App() {
   const [customers, setCustomers] = useState([]);

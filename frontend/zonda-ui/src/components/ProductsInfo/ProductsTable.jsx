@@ -11,7 +11,7 @@ import {
   Box,
   Skeleton,
 } from "@mui/material";
-import { Delete, Edit } from "@mui/icons-material";
+import { Delete } from "@mui/icons-material";
 
 export default function ProductTable({
   products,
