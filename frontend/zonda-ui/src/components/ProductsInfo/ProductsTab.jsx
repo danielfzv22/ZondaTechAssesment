@@ -79,11 +79,6 @@ export default function ProductsDetailsTab({ customerId }) {
         body: JSON.stringify(product),
       });
 
-      if (!response.ok) {
-        setErrorMessage("Error saving product");
-        return;
-      }
-
       const responseData = await response.json();
 
       if (!responseData.success) {
