@@ -1,0 +1,6 @@
+@ZondaTechAssesment_HostAddress = http://localhost:5255
+
+GET {{ZondaTechAssesment_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
